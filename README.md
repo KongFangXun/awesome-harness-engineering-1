@@ -98,7 +98,7 @@ Generic agent tooling is out of scope unless the page directly covers harness de
 - [APort Agent Guardrails](https://github.com/aporthq/aport-agent-guardrails) - Deterministic pre-action authorization hooks for AI-agent tool calls, with adapters for Claude Code, Cursor, OpenClaw, LangChain, CrewAI, and related runtimes.
 - [Lurkr](https://github.com/agentveil-protocol/lurkr) - Static scanner that runs in CI before deploy to surface AI-agent capability risks, including shadow capabilities, credentials into LLM context, eval/subprocess in `@tool`, direct prompt interpolation, and unverified MCP endpoints.
 - [HEAAL](https://github.com/hyun06000/AIL) - Grammar-enforced safety constraints for AI agents via AIL (AI-Intent Language).
-- [sofagent](https://github.com/KongFangXun/sofagent) - Commit-time audit harness for AI coding agents: 24 deterministic, zero-token audit rules over git diffs (secrets, out-of-scope edits, blind modifications, prompt-injection traces), an HMAC-chained tamper-evident audit history, and a 9-plugin DSH family; installable as a GitHub Action or MCP server.
+- [sofagent](https://github.com/KongFangXun/sofagent) - Commit-time audit harness for AI coding agents: 24 deterministic, zero-token audit rules over git diffs (secrets, out-of-scope edits, blind modifications, prompt-injection traces), an HMAC-chained tamper-evident audit history, and a DSH plugin family; installable as a GitHub Action or MCP server.
 
 ### Operational Autonomy & Reliability
 
